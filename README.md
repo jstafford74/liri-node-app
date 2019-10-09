@@ -1,13 +1,13 @@
 # liri-node-app
- LIRI == Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
 ## Critical Elements:
-axios: https://www.npmjs.com/package/axios
-Bands in Town: https://www.artists.bandsintown.com/login
-Spotify: https://www.npmjs.com/package/node-spotify-api
-OMDB: http://www.omdbapi.com/
-Moment: https://www.npmjs.com/package/moment
-DotEnv: https://www.npmjs.com/package/dotenv
+-axios: https://www.npmjs.com/package/axios
+-Bands in Town: https://www.artists.bandsintown.com/login
+-Spotify: https://www.npmjs.com/package/node-spotify-api
+-OMDB: http://www.omdbapi.com/
+-Moment: https://www.npmjs.com/package/moment
+-DotEnv: https://www.npmjs.com/package/dotenv
 
 ### Submission Guide
 As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. 
@@ -18,13 +18,13 @@ Include:
 
 You can include these screenshots/GIFs or a link to a video in a README.md file.
 ### Criteria for README.md submission file:
-  [ ] Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-  [ ] Give a high-level overview of how the app is organized
-  [ ] Give start-to-finish instructions on how to run the app
-  [ ] Include screenshots, gifs or videos of the app functioning
-  [ ] Contain a link to a deployed version of the app
-  [ ] Clearly list the technologies used in the app
-  [ ] State your role in the app development
+[ ] Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
+[ ] Give a high-level overview of how the app is organized
+[ ] Give start-to-finish instructions on how to run the app
+[ ] Include screenshots, gifs or videos of the app functioning
+[ ] Contain a link to a deployed version of the app
+[ ] Clearly list the technologies used in the app
+[ ] State your role in the app development
 
 ## Instructions
 
