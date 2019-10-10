@@ -1,10 +1,10 @@
 var dotEnv = require("dotenv").config();
 const axios = require('axios');
 var Spotify = require('node-spotify-api');
-// var bandsintown = require('bandsintown')(codingbootcamp);
+var bandsintown = require('bandsintown');
 var moment = require('moment');
-// var keys = require("./keys.js");
-// var spotify = new Spotify(keys.spotify);
+var keys = require("./keys.js");
+var spotify = new Spotify(keys.spotify);
 const inquirer = require('inquirer');
 
 // let movieName = process.argv.slice(2);
@@ -60,24 +60,37 @@ function main() {
 
 function liriHouse() {
   inquirer.prompt(commAnd).then(answers => {
-    
+
     switch (answers.command) {
       case 'concert-this':
-      
-      console.log('Bands in Town')
-          break;
+        console.log('Bands in Town')
+        let bitUrl = "https://rest.bandsintown.com/artists/ + artist + /events?app_id=codingbootcamp"
+        break;
 
       case 'spotify-this-song':
-          console.log('Spotify');
-          break;
+          var spotify = new Spotify(keys.spotify);
+        console.log('Spotify');
+        spotify
+          .search({ type: 'track', query: 'All the Small Things' })
+          .then(function (response) {
+            console.log('Artist Name: ' + response.tracks.items[0].artists[0].name);
+            console.log('Album Name: ' + response.tracks.items[0].album.name);
+            console.log('Song Name: ' + response.tracks.items[0].name);
+            console.log('Preview Link: ' + response.tracks.items[0].artists[0].external_urls.spotify);
+          })
+          .catch(function (err) {
+            console.log(err);
+          });
+
+        break;
       case 'movie-this':
-          console.log('OMDB');
-          break;
+        console.log('OMDB');
+        break;
       case 'do-what-it-says':
-          console.log('Rando');
-          break;
+        console.log('Rando');
+        break;
       default:
-          console.log('Please enter a command')
+        console.log('Please enter a command')
     }
 
   })
