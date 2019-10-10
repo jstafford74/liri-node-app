@@ -3,11 +3,17 @@ Language Interpretation and Recognition Interface. LIRI will be a command line n
 
 ## Critical Elements:
 - axios: https://www.npmjs.com/package/axios
-- Bands in Town: https://www.artists.bandsintown.com/login
+- [X] installed
+- Bands in Town: https://www.npmjs.com/package/bandsintown-rest
+- [X] installed
 - Spotify: https://www.npmjs.com/package/node-spotify-api
+- [X] installed
 - OMDB: http://www.omdbapi.com/
+- [X] installed 
 - Moment: https://www.npmjs.com/package/moment
+- [X] installed
 - DotEnv: https://www.npmjs.com/package/dotenv
+- [X] installed
 
 ### Submission Guide
 As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. 
@@ -28,13 +34,13 @@ You can include these screenshots/GIFs or a link to a video in a README.md file.
 
 ## Instructions
 
-  - [ ] Navigate to the root of your project and run npm init -y — this will initialize a package.json file for your project
-  - [ ] Make a .gitignore file and add the following lines to it:
+  - [X] Navigate to the root of your project and run npm init -y — this will initialize a package.json file for your project
+  - [X] Make a .gitignore file and add the following lines to it:
     - node_modules
     - .DS_Store
     - .env
 
-  - [ ] Make a JavaScript file named keys.js.
+  - [X] Make a JavaScript file named keys.js.
       Inside keys.js your file will look like this:
 
            console.log('this is loaded');
@@ -44,7 +50,7 @@ You can include these screenshots/GIFs or a link to a video in a README.md file.
              secret: process.env.SPOTIFY_SECRET
            };
 
-  - [ ] Create a file named .env add the following to it(replacing the values with your API keys (no quotes) once you have them):
+  - [X] Create a file named .env add the following to it(replacing the values with your API keys (no quotes) once you have them):
 
         # Spotify API keys
 
@@ -55,20 +61,20 @@ This file will be used by the dotenv package to set what are known as environmen
 
 If someone wanted to clone your app from github and run it themselves, they would need to supply their own .env file for it to work.
 
-- [ ] Make a file called random.txt, inside of random.txt put the following in with no extra characters or white space:
+- [X] Make a file called random.txt, inside of random.txt put the following in with no extra characters or white space:
 
       spotify-this-song,"I Want it That Way"
 
- - [ ] Make a JavaScript file named liri.js. At the top of the liri.js file, add code to read and set any environment variables with the dotenv package:
+ - [X] Make a JavaScript file named liri.js. At the top of the liri.js file, add code to read and set any environment variables with the dotenv package:
 
        require("dotenv").config();
 
- - [ ] Add the code required to import the keys.js file and store it in a variable.
+ - [X] Add the code required to import the keys.js file and store it in a variable.
 
        var keys = require("./keys.js");
 
 
-  - [ ] You should then be able to access your keys information like so
+  - [X] You should then be able to access your keys information like so
        
        var spotify = new Spotify(keys.spotify);
 
@@ -117,15 +123,15 @@ This will show the following information about the song in your terminal/bash wi
 ## node liri.js movie-this <movie name here>
 
 This will output the following information to your terminal/bash window:
-  - [ ] Title of the movie.
-  - [ ] Year the movie came out.
-  - [ ] IMDB Rating of the movie.
-  - [ ] Rotten Tomatoes Rating of the movie.
-  - [ ] Country where the movie was produced.
-  - [ ] Language of the movie.
-  - [ ] Plot of the movie.
-  - [ ] Actors in the movie.
-  - [ ] If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+  - [X] Title of the movie.
+  - [X] Year the movie came out.
+  - [X] IMDB Rating of the movie.
+  - [X] Rotten Tomatoes Rating of the movie.
+  - [X] Country where the movie was produced.
+  - [X] Language of the movie.
+  - [X] Plot of the movie.
+  - [X] Actors in the movie.
+  - [X] If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
 #### N.B.: You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
