@@ -7,41 +7,6 @@ var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 const inquirer = require('inquirer');
 
-// let movieName = process.argv.slice(2);
-// movieName = movieName.map(it => it.trim());
-// const queryUrl = `http://www.omdbapi.com/?t=${movieName}&y=&plot=short&apikey=trilogy`;
-
-
-// axios.get(queryUrl).then(
-//   function(response) {
-//       var movData = response.data;
-//        console.log('Title: ' + movData.Title,
-//         movData.Year,
-//         movData.Ratings[0].Source + ': ' + movData.Ratings[0].Value,
-//         movData.Ratings[1].Source + ': ' + movData.Ratings[1].Value,
-//         movData.Country,
-//         movData.Language,
-//         movData.Plot,
-//         movData.Actors,
-//         );
-
-// }).catch(function (error) {
-//   if (error.response) {
-//     console.log('---------------Data---------------');
-//     console.log(error.response.data);
-//     console.log('---------------Status---------------');
-//     console.log(error.response.status);
-//     console.log('---------------Status---------------');
-//     console.log(error.response.headers);
-//   } else if (error.request) {
-
-//     console.log(error.request);
-//   } else {
-
-//     console.log('Error', error.message);
-//   }
-//   console.log(error.config);
-// })
 
 //-----Bands in Town-----//
 // let artistName = process.argv.slice(2);
@@ -68,15 +33,16 @@ function liriHouse() {
         break;
 
       case 'spotify-this-song':
-          var spotify = new Spotify(keys.spotify);
+        var spotify = new Spotify(keys.spotify);
         console.log('Spotify');
         spotify
           .search({ type: 'track', query: 'All the Small Things' })
           .then(function (response) {
+            console.group(response.tracks.items[0].name);
             console.log('Artist Name: ' + response.tracks.items[0].artists[0].name);
             console.log('Album Name: ' + response.tracks.items[0].album.name);
-            console.log('Song Name: ' + response.tracks.items[0].name);
             console.log('Preview Link: ' + response.tracks.items[0].artists[0].external_urls.spotify);
+            console.groupEnd();
           })
           .catch(function (err) {
             console.log(err);
@@ -85,6 +51,40 @@ function liriHouse() {
         break;
       case 'movie-this':
         console.log('OMDB');
+        let movieName = 'Superman';
+        const queryUrl = `http://www.omdbapi.com/?t=${movieName}&y=&plot=short&apikey=trilogy`;
+
+
+        axios.get(queryUrl).then(
+          function (response) {
+            let movData = response.data;
+            console.group(`${movData.Title}`);
+            console.log(`Year: ${movData.Year}`);
+            console.log(`${movData.Ratings[0].Source} : ${movData.Ratings[0].Value}`);
+            console.log(`${movData.Ratings[1].Source} : ${movData.Ratings[1].Value}`);
+            console.log(`Country: ${movData.Country}`);
+            console.log(`Language: ${movData.Language}`);
+            console.log(`Plot: ${movData.Plot}`);
+            console.log(`Actors: ${movData.Actors}`);
+            console.groupEnd();
+          }).catch(function (error) {
+            if (error.response) {
+              console.log('---------------Data---------------');
+              console.log(error.response.data);
+              console.log('---------------Status---------------');
+              console.log(error.response.status);
+              console.log('---------------Status---------------');
+              console.log(error.response.headers);
+            } else if (error.request) {
+
+              console.log(error.request);
+            } else {
+
+              console.log('Error', error.message);
+            }
+            console.log(error.config);
+          })
+
         break;
       case 'do-what-it-says':
         console.log('Rando');
