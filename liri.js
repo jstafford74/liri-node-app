@@ -8,9 +8,16 @@ var spotify = new Spotify(keys.spotify);
 const inquirer = require('inquirer');
 
 
-//-----Bands in Town-----//
-// let artistName = process.argv.slice(2);
-// var bitUrl = "https://rest.bandsintown.com/artists/" + artistName + "/events?app_id=codingbootcamp";
+//-----Bands in Town Object-----//
+const bitData = {
+  Name: "",
+  Events: "",
+  nextEvent: "",
+  nextVenue: "",
+  nextVenueCity: "",
+  nextVenueCountry: ""
+};
+
 var commAnd = {
   type: 'list',
   name: 'command',
@@ -29,7 +36,37 @@ function liriHouse() {
     switch (answers.command) {
       case 'concert-this':
         console.log('Bands in Town')
-        let bitUrl = "https://rest.bandsintown.com/artists/ + artist + /events?app_id=codingbootcamp"
+        let bitUrl1 = "https://rest.bandsintown.com/artists/brothersosbourne?app_id=codingbootcamp";
+        let bitUrl2 = "https://rest.bandsintown.com/artists/brothersosbourne/events?app_id=codingbootcamp";
+        const promise1 = axios.get(bitUrl1).then(
+          function (response) {
+            let bD = response.data;
+
+            bitData.Name = bD.name;
+            bitData.Events = bD.upcoming_event_count;
+          });
+        const promise2 = axios.get(bitUrl2).then(
+          function (response) {
+            let bD2 = response.data[0];
+            bitData.nextEvent = bD2.datetime;
+            bitData.nextVenue = bD2.venue.name;
+            bitData.nextVenueCity = bD2.venue.city;
+            bitData.nextVenueCountry = bD2.venue.country;
+          });
+
+
+
+        Promise.all([promise1, promise2]).then(function () {
+          console.group(bitData.Name);
+          console.log(`Upcoming Events: ${bitData.Events}`);
+          console.group(`Next Event Date: ${bitData.nextEvent}`);
+          console.log(`Venue: ${bitData.nextVenue}`);
+          console.log(`Location: ${bitData.nextVenueCity}, ${bitData.nextVenueCountry}`);
+          console.groupEnd();
+          console.groupEnd();
+
+        })
+
         break;
 
       case 'spotify-this-song':

@@ -105,12 +105,12 @@ https://rest.bandsintown.com/artists/celine+dion/events?app_id=codingbootcamp
 
 This will show the following information about the song in your terminal/bash window
 
-  - [ ] Artist(s)
-  - [ ] The song's name
-  - [ ] A preview link of the song from Spotify
-  - [ ] The album that the song is from
+  - [X] Artist(s)
+  - [X] The song's name
+  - [X] A preview link of the song from Spotify
+  - [X] The album that the song is from
   - [ ] If no song is provided then your program will default to "The Sign" by Ace of Base.
-  - [ ] You will utilize the node-spotify-api package in order to retrieve song information from the Spotify API.
+  - [X] You will utilize the node-spotify-api package in order to retrieve song information from the Spotify API.
 
 #### Note: The Spotify API requires you sign up as a developer to generate the necessary credentials. You can follow these steps in order to generate a client id and client secret:
 
@@ -131,7 +131,7 @@ This will output the following information to your terminal/bash window:
   - [X] Language of the movie.
   - [X] Plot of the movie.
   - [X] Actors in the movie.
-  - [X] If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+  - [ ] If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
 
 
 #### N.B.: You'll use the axios package to retrieve data from the OMDB API. Like all of the in-class activities, the OMDB API requires an API key. You may use trilogy.
