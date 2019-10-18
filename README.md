@@ -1,6 +1,10 @@
 # liri-node-app
 Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
 
+## Link to application demonstration: 
+https://drive.google.com/file/d/1w_Hpu_qZO9Q5qwPfZ76uRjArcPzt_SZo/view
+
+
 ## Critical Elements:
 - axios: https://www.npmjs.com/package/axios
 - [X] installed
@@ -15,14 +19,7 @@ Language Interpretation and Recognition Interface. LIRI will be a command line n
 - DotEnv: https://www.npmjs.com/package/dotenv
 - [X] installed
 
-### Submission Guide
-As this is a CLI App, it cannot be deployed to GitHub pages or Heroku. 
-Include:
-- Screenshots
-- GIF
-- and/or a video showing the app working with no bugs
 
-You can include these screenshots/GIFs or a link to a video in a README.md file.
 ### Criteria for README.md submission file:
 - [X] Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
 - [X] Give a high-level overview of how the app is organized
