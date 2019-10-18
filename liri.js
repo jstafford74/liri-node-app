@@ -6,6 +6,7 @@ var moment = require('moment');
 var keys = require("./keys.js");
 var spotify = new Spotify(keys.spotify);
 const inquirer = require('inquirer');
+const fs = require('fs');
 
 
 //-----Bands in Town Object-----//
@@ -74,8 +75,16 @@ function liriHouse() {
             console.groupEnd();
             console.groupEnd();
 
-          })
-        })
+            const text = `concert-this, "${bitData.Name}"`;
+            fs.appendFile('log.txt', `\n${text}\n`, function (err) {
+              if (err) {
+                console.log(err);
+              }
+            });
+
+
+          });
+        });
         break;
 
       case 'spotify-this-song':
@@ -96,6 +105,14 @@ function liriHouse() {
               console.log('Album Name: ' + response.tracks.items[0].album.name);
               console.log('Preview Link: ' + response.tracks.items[0].artists[0].external_urls.spotify);
               console.groupEnd();
+
+              const text = `spotify-this-song, "${response.tracks.items[0].name}"`;
+              fs.appendFile('log.txt', `\n${text}\n`, function (err) {
+                if (err) {
+                  console.log(err);
+                }
+              });
+
             })
             .catch(function (err) {
               console.log(err);
@@ -124,6 +141,14 @@ function liriHouse() {
               console.log(`Plot: ${movData.Plot}`);
               console.log(`Actors: ${movData.Actors}`);
               console.groupEnd();
+
+              const text = `movie-this, "${movData.Title}"`;
+              fs.appendFile('log.txt', `\n${text}\n`, function (err) {
+                if (err) {
+                  console.log(err);
+                }
+              });
+
             }).catch(function (error) {
               if (error.response) {
                 console.log('---------------Data---------------');
@@ -144,7 +169,29 @@ function liriHouse() {
         });
         break;
       case 'do-what-it-says':
-        console.log('Rando');
+
+
+        // const text = process.argv[2];
+        fs.readFile('random.txt', 'utf8', function (error, data) {
+          if (error) {
+            return console.log(error);
+          }
+          const dataArr = data.split(',').map((it) => it.trim());
+          console.log(dataArr[0]);
+          console.log(dataArr[1]);
+        });
+        // // Next, we append the text into the "sample.txt" file.
+        // // If the file didn't exist, then it gets created on the fly.
+        // fs.appendFile('sample.txt', `, ${text}\n`, function (err) {
+
+        //   // If an error was experienced we will log it.
+        //   if (err) {
+        //     console.log(err);
+        //   } else { // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+        //     console.log('Content Added!');
+        //   }
+
+        // });
         break;
       default:
         console.log('Please enter a command')

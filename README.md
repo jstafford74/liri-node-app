@@ -24,12 +24,12 @@ Include:
 
 You can include these screenshots/GIFs or a link to a video in a README.md file.
 ### Criteria for README.md submission file:
-- [ ] Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
-- [ ] Give a high-level overview of how the app is organized
-- [ ] Give start-to-finish instructions on how to run the app
-- [ ] Include screenshots, gifs or videos of the app functioning
-- [ ] Contain a link to a deployed version of the app
-- [ ] Clearly list the technologies used in the app
+- [X] Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
+- [X] Give a high-level overview of how the app is organized
+- [X] Give start-to-finish instructions on how to run the app
+- [X] Include screenshots, gifs or videos of the app functioning
+- [X] Contain a link to a deployed version of the app
+- [X] Clearly list the technologies used in the app
 - [ ] State your role in the app development
 
 ## Instructions
@@ -131,6 +131,6 @@ It should run spotify-this-song for "I Want it That Way," as follows the text in
 Edit the text in random.txt to test out the feature for movie-this and concert-this.
 
 BONUS
-  - [ ] In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt.
-  - [ ] Make sure you append each command you run to the log.txt file.
-  - [ ] Do not overwrite your file each time you run a command.
+  - [X] In addition to logging the data to your terminal/bash window, output the data to a .txt file called log.txt.
+  - [X] Make sure you append each command you run to the log.txt file.
+  - [X] Do not overwrite your file each time you run a command.
