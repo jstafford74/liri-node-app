@@ -18,8 +18,11 @@
   },
   "homepage": "https://github.com/jstafford74/liri-node-app#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "bandsintown": "^1.0.1",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.12",
     "dotenv": "^8.1.0",
     "inquirer": "^7.0.0",
     "moment": "^2.24.0",

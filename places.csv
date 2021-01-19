@@ -1,0 +1,638 @@
+Year,Month,Total Dates, Total Places
+ 2019,Sep,30, 39
+ 2019,Oct,31, 39
+ 2019,Nov,31, 44
+ 2019,Dec,32, 61
+ 2020,Jan,31, 47
+ 2020,Feb,30, 43
+ 2020,Mar,27, 42
+ 2020,Apr,25, 11
+ 2020,May,25, 12
+ 2020,Jun,29, 25
+ 2020,Jul,32, 43
+ 2020,Aug,30, 38
+ 2020,Sep,31, 51
+ 2019,Oct,32, 42
+ 2020,Dec,30, 36
+ 2020,Jan,31, 47
+Year,Month,Place, Count
+2019, Sep, 43 Blueberry Ln, 72
+2019, Sep, Dermatologist(Contract Work), 29
+2019, Sep, Darien High School, 10
+2019, Sep, Casa Villa Restaurant, 9
+2019, Sep, University of Connecticut-Stamford Campus, 9
+2019, Sep, Royle Elementary School(Football Practice), 7
+2019, Sep, Darien, 5
+2019, Sep, McDonald's, 2
+2019, Sep, 9 Shipway Rd(Rental), 2
+2019, Sep, CVS, 2
+2019, Sep, Revive Center For Wellness, 2
+2019, Sep, Ox Ridge Elementary School, 2
+2019, Sep, Standard, 1
+2019, Sep, Saugatuck Elementary School, 1
+2019, Sep, Crescendo Music, 1
+2019, Sep, Cornell University Veterinary Specialists, 1
+2019, Sep, Brooks Bros Contracting, 1
+2019, Sep, Yale New Haven Children's Hospital Pediatric Specialty Center - Norwalk, 1
+2019, Sep, Shell, 1
+2019, Sep, Walgreens, 1
+2019, Sep, Fairfield University, 1
+2019, Sep, Shake Shack, 1
+2019, Sep, Tiger Hollow Stadium, 1
+2019, Sep, Goodwives River, 1
+2019, Sep, Chelsea Piers Fitness, 1
+2019, Sep, Rinaldi's Deli Grill, 1
+2019, Sep, Piedmont Associates Inc, 1
+2019, Sep, Riko's Pizza, 1
+2019, Sep, Vinny's Backyard Restaurant and Bar, 1
+2019, Sep, Noroton Heights, 1
+2019, Sep, Stamford Barbershop, 1
+2019, Sep, BevMax, 1
+2019, Sep, Tokeneke Elementary School, 1
+2019, Sep, Fairfield Ludlowe High School, 1
+2019, Sep, 252 CT-136, 1
+2019, Sep, Whole Foods Market, 1
+2019, Sep, 12 Parsons Walk, 1
+2019, Sep, Scotland Elementary School, 1
+2019, Sep, Burgers Shakes and Fries, 1
+2019, Oct, 43 Blueberry Ln, 82
+2019, Oct, 9 Shipway Rd(Rental), 41
+2019, Oct, Dermatologist(Contract Work), 21
+2019, Oct, Royle Elementary School, 10
+2019, Oct, University of Connecticut-Stamford Campus, 9
+2019, Oct, The Home Depot, 7
+2019, Oct, Ring's End, 6
+2019, Oct, Revive Center For Wellness, 4
+2019, Oct, Darien, 3
+2019, Oct, Darien High School, 2
+2019, Oct, 9 Shipway Rd(Rental)), 2
+2019, Oct, Walgreens, 2
+2019, Oct, Casa Villa Restaurant, 2
+2019, Oct, Greenwich High School, 2
+2019, Oct, Ambrogio, Pletter & Associates, LLC, 2
+2019, Oct, Ox Ridge Elementary School, 1
+2019, Oct, Sunshine Cuisine, 1
+2019, Oct, Darien Diner, 1
+2019, Oct, Goodwives Shopping Center, 1
+2019, Oct, Vinny's Backyard Restaurant and Bar, 1
+2019, Oct, Tokeneke Elementary School, 1
+2019, Oct, I-95 Fairfield Ct Service Plaza, 1
+2019, Oct, Shell, 1
+2019, Oct, Hoyt Cemetery, 1
+2019, Oct, Mama Carmela's Deli, 1
+2019, Oct, 17 Plymouth Rd, 1
+2019, Oct, Stamford Hospital - Bennett Medical Center, 1
+2019, Oct, 28 Intervale Rd, 1
+2019, Oct, CVS, 1
+2019, Oct, BonBon Hair Studio, 1
+2019, Oct, Darien Valero, 1
+2019, Oct, Stamford Plaza, 1
+2019, Oct, Darien Sport Shop, 1
+2019, Oct, I-95 Darien NB Service Plaza, 1
+2019, Oct, Staples High School, 1
+2019, Oct, Glory Days Diner, 1
+2019, Oct, Starbucks, 1
+2019, Oct, Darien Town Hall, 1
+2019, Oct, AutoZone Auto Parts, 1
+2019, Nov, 9 Shipway Rd(Rental), 51
+2019, Nov, 43 Blueberry Ln, 39
+2019, Nov, Dermatologist(Contract Work), 25
+2019, Nov, University of Connecticut-Stamford Campus, 9
+2019, Nov, Darien High School, 6
+2019, Nov, Darien, 5
+2019, Nov, Ring's End, 4
+2019, Nov, Vinny's Backyard Restaurant and Bar, 3
+2019, Nov, The Home Depot, 3
+2019, Nov, Casa Villa Restaurant, 3
+2019, Nov, 4 Christie Hill Rd, 2
+2019, Nov, Walgreens, 2
+2019, Nov, Hair Bow Beauty Supply, 2
+2019, Nov, Subway, 2
+2019, Nov, 99 Allen St, 2
+2019, Nov, Ambrogio, Pletter & Associates, LLC, 1
+2019, Nov, Fairfield Warde High School, 1
+2019, Nov, Chick-fil-A, 1
+2019, Nov, Donut Delight, 1
+2019, Nov, Dental Permanente of Stamford, 1
+2019, Nov, Shell, 1
+2019, Nov, St. Thomas More Church, 1
+2019, Nov, 20 Plymouth Rd, 1
+2019, Nov, MathWorks – Apple Hill Campus, 1
+2019, Nov, The Center at Hobbs Brook, 1
+2019, Nov, Shake Shack, 1
+2019, Nov, Staples High School, 1
+2019, Nov, Glenbrook Shopping Center, 1
+2019, Nov, Nick's Pizza, 1
+2019, Nov, Piedmont Associates Inc, 1
+2019, Nov, Revive Center For Wellness, 1
+2019, Nov, Naramake Elementary School, 1
+2019, Nov, Diamond Nation, 1
+2019, Nov, Whole Foods Market, 1
+2019, Nov, 223 Middlesex Rd, 1
+2019, Nov, Waveny Park, 1
+2019, Nov, Darien Recycling and Refuse Center, 1
+2019, Nov, Cantina Mexicana, 1
+2019, Nov, Noroton Heights, 1
+2019, Nov, Grand Central Terminal, 1
+2019, Nov, MetLife Building, 1
+2019, Nov, 253 Tokeneke Rd, 1
+2019, Nov, The SoNo Collection, 1
+2019, Nov, 495 Middlesex Rd, 1
+2019, Dec, 9 Shipway Rd(Rental), 66
+2019, Dec, Dermatologist(Contract Work), 25
+2019, Dec, 43 Blueberry Ln, 12
+2019, Dec, University of Connecticut-Stamford Campus, 6
+2019, Dec, Darien, 5
+2019, Dec, The Home Depot, 3
+2019, Dec, Grand Central Terminal, 3
+2019, Dec, Darien High School, 2
+2019, Dec, Casa Villa Restaurant, 2
+2019, Dec, Taco Bell, 2
+2019, Dec, Stamford Town Center, 2
+2019, Dec, Colony Grill, 2
+2019, Dec, Noroton Heights, 2
+2019, Dec, Starbucks, 2
+2019, Dec, The Melting Pot, 1
+2019, Dec, Post Road Plaza, 1
+2019, Dec, Children's Medical Group of Greenwich, 1
+2019, Dec, Greenwich High School, 1
+2019, Dec, Vinny's Backyard Restaurant and Bar, 1
+2019, Dec, Tigin Irish Pub, 1
+2019, Dec, Darien Senior Programs, 1
+2019, Dec, Ox Ridge Hunt Club, 1
+2019, Dec, South End, 1
+2019, Dec, Caffè Nero, 1
+2019, Dec, Downtown, 1
+2019, Dec, Little Thai Kitchen, 1
+2019, Dec, Fulton Street Station, 1
+2019, Dec, The Fulton Center, 1
+2019, Dec, The Roosevelt Hotel, 1
+2019, Dec, Middlesex Middle School, 1
+2019, Dec, Trumbull Continuing Education, 1
+2019, Dec, Bridgeport Hospital, 1
+2019, Dec, Family Auto Body Inc, 1
+2019, Dec, Shake Shack, 1
+2019, Dec, Yale New Haven Children's Hospital Pediatric Specialty Center - Norwalk, 1
+2019, Dec, Minar Indian Restaurant, 1
+2019, Dec, 49 St Subway Station, 1
+2019, Dec, IEX Group, 1
+2019, Dec, Buffalo Wild Wings, 1
+2019, Dec, Wee Burn Country Club Inc, 1
+2019, Dec, Darien Town Hall, 1
+2019, Dec, Ring's End, 1
+2019, Dec, Walgreens, 1
+2019, Dec, Walmart, 1
+2019, Dec, Weed Beach Tennis, 1
+2019, Dec, Stop & Shop, 1
+2019, Dec, Darien Butcher Shop, 1
+2019, Dec, Best Buy, 1
+2019, Dec, undefined, 1
+2019, Dec, 43 Oak Point Dr S, 1
+2019, Dec, Sergios, 1
+2019, Dec, Stamford Barbershop, 1
+2019, Dec, Bow Tie Cinemas Regent, 1
+2019, Dec, CVS, 1
+2019, Dec, Darien Diner, 1
+2019, Dec, Jennifer's Kitchen @ White Bridge, 1
+2019, Dec, Darien Library, 1
+2019, Dec, ShopRite of Shippan Ave- Stamford, CT, 1
+2019, Dec, Merritt On the River, 1
+2019, Dec, BevMax, 1
+2019, Dec, 28 Intervale Rd, 1
+2020, Jan, 9 Shipway Rd(Rental), 78
+2020, Jan, Dermatologist(Contract Work), 29
+2020, Jan, University of Connecticut-Stamford Campus, 12
+2020, Jan, Darien, 8
+2020, Jan, 43 Blueberry Ln, 4
+2020, Jan, Darien High School, 4
+2020, Jan, Revive Center For Wellness, 3
+2020, Jan, Sergios, 3
+2020, Jan, Shake Shack, 3
+2020, Jan, Hyatt Regency Greenwich, 2
+2020, Jan, The Campus, 2
+2020, Jan, Darien Library, 2
+2020, Jan, Riverview East, 2
+2020, Jan, Stamford Town Center, 2
+2020, Jan, PetSmart, 1
+2020, Jan, Post Corner Pizza, 1
+2020, Jan, Garcia's Flower Shop, 1
+2020, Jan, 66 Summer, 1
+2020, Jan, The Home Depot, 1
+2020, Jan, Hindley Elementary School, 1
+2020, Jan, Ox Ridge Elementary School, 1
+2020, Jan, DOCS Urgent Care - Norwalk, 1
+2020, Jan, Standard, 1
+2020, Jan, FOOD BAG, 1
+2020, Jan, Glenbrook Shopping Center, 1
+2020, Jan, Walgreens, 1
+2020, Jan, Ring's End, 1
+2020, Jan, United States Postal Service, 1
+2020, Jan, CVS, 1
+2020, Jan, Chéz Ernie's Cafe, 1
+2020, Jan, Atria Darien, 1
+2020, Jan, Noroton Heights, 1
+2020, Jan, Darien Sport Shop, 1
+2020, Jan, Weed Beach Tennis, 1
+2020, Jan, Chick-fil-A, 1
+2020, Jan, Colony Grill, 1
+2020, Jan, Caffè Nero, 1
+2020, Jan, Washington Prime, 1
+2020, Jan, Post Road Plaza, 1
+2020, Jan, Vinny's Backyard Restaurant and Bar, 1
+2020, Jan, ShopRite of Shippan Ave- Stamford, CT, 1
+2020, Jan, Taco Bell, 1
+2020, Jan, Marshalls, 1
+2020, Jan, Michaels, 1
+2020, Jan, Stop & Shop, 1
+2020, Jan, Fairway Market Stamford, 1
+2020, Jan, Mike's Ristorante, 1
+2020, Feb, 9 Shipway Rd(Rental), 77
+2020, Feb, Dermatologist(Contract Work), 29
+2020, Feb, Darien Sport Shop, 6
+2020, Feb, Middlesex Middle School, 5
+2020, Feb, Darien High School, 5
+2020, Feb, 43 Blueberry Ln, 5
+2020, Feb, Darinor Plaza, 4
+2020, Feb, ShopRite of Shippan Ave- Stamford, CT, 3
+2020, Feb, Darien, 3
+2020, Feb, Glenbrook Shopping Center, 3
+2020, Feb, Goodwives Shopping Center, 3
+2020, Feb, Weed Beach Tennis, 3
+2020, Feb, DoubleTree by Hilton Hotel Norwalk, 2
+2020, Feb, The Home Depot, 2
+2020, Feb, Noroton Heights, 2
+2020, Feb, Colony Grill, 2
+2020, Feb, Shake Shack, 1
+2020, Feb, 2 Mansfield Pl, 1
+2020, Feb, Garcia's Flower Shop, 1
+2020, Feb, FedEx Office Print & Ship Center, 1
+2020, Feb, BonBon Hair Studio, 1
+2020, Feb, ShopRite of Norwalk, 1
+2020, Feb, Jennifer's Kitchen @ White Bridge, 1
+2020, Feb, Piedmont Associates Inc, 1
+2020, Feb, The Melting Pot, 1
+2020, Feb, Stamford Town Center, 1
+2020, Feb, Walmart, 1
+2020, Feb, Weed Beach, 1
+2020, Feb, E Putnam Ave and Strickland Rd, 1
+2020, Feb, Taco Bell, 1
+2020, Feb, 121 Middlesex Rd, 1
+2020, Feb, Stamford Barbershop, 1
+2020, Feb, Bow Tie Cinemas Regent, 1
+2020, Feb, The Campus, 1
+2020, Feb, Stamford Hospital - Bennett Medical Center, 1
+2020, Feb, Revive Center For Wellness, 1
+2020, Feb, 10 Wall Street, 1
+2020, Feb, Children's Medical Group of Greenwich, 1
+2020, Feb, Ox Ridge Elementary School, 1
+2020, Feb, Darien Valero, 1
+2020, Feb, Flashtalking, Inc., 1
+2020, Feb, Casa Villa Restaurant, 1
+2020, Feb, Lowe's Home Improvement, 1
+2020, Mar, 9 Shipway Rd(Rental), 63
+2020, Mar, Dermatologist(Contract work), 14
+2020, Mar, 43 Blueberry Ln, 8
+2020, Mar, Goodwives Shopping Center, 5
+2020, Mar, Noroton Heights, 5
+2020, Mar, Darien High School, 5
+2020, Mar, Darien, 3
+2020, Mar, Middlesex Middle School, 2
+2020, Mar, The Home Depot, 2
+2020, Mar, ShopRite of Shippan Ave- Stamford, CT, 2
+2020, Mar, Nick's Pizza, 1
+2020, Mar, Woodland Park, 1
+2020, Mar, Springdale Barber Shop, 1
+2020, Mar, Mystique Stamford, 1
+2020, Mar, Stamford Health - Tully Health Center, 1
+2020, Mar, Andrew Shaw Memorial Scout Cabin, 1
+2020, Mar, Quest Diagnostics Darien, 1
+2020, Mar, Taco Bell, 1
+2020, Mar, Darien Sport Shop, 1
+2020, Mar, Holly Pond Plaza, 1
+2020, Mar, FedEx Office Print & Ship Center, 1
+2020, Mar, Winfield Street Coffee - Stamford, 1
+2020, Mar, Darien Library, 1
+2020, Mar, Sinigual, 1
+2020, Mar, 42 St-Bryant Park Station, 1
+2020, Mar, Grand Central Terminal, 1
+2020, Mar, Walmart, 1
+2020, Mar, DICK'S Sporting Goods, 1
+2020, Mar, The Hideaway Kitchen & Bar, 1
+2020, Mar, Hindley Elementary School, 1
+2020, Mar, 151 West Ave, 1
+2020, Mar, Deborah Noonan, 1
+2020, Mar, Starbucks, 1
+2020, Mar, 9 Loughlin Ave, 1
+2020, Mar, 70 Sinawoy Rd, 1
+2020, Mar, Bruce Park Grill, 1
+2020, Mar, 59 Sinawoy Rd, 1
+2020, Mar, Darinor Plaza, 1
+2020, Mar, 50 Washington St, 1
+2020, Mar, Shake Shack, 1
+2020, Mar, CVS, 1
+2020, Mar, Glenbrook Shopping Center, 1
+2020, Apr, 9 Shipway Rd(Rental), 36
+2020, Apr, 43 Blueberry Ln, 27
+2020, Apr, Darien, 5
+2020, Apr, Goodwives Shopping Center, 3
+2020, Apr, Stop & Shop, 3
+2020, Apr, The Home Depot, 2
+2020, Apr, 240 Seaside Ave, 2
+2020, Apr, 24 Hanson Rd, 1
+2020, Apr, Chick-fil-A, 1
+2020, Apr, Weed Beach Tennis, 1
+2020, Apr, ShopRite of Shippan Ave- Stamford, CT, 1
+2020, May, 43 Blueberry Ln, 34
+2020, May, 9 Shipway Rd(Rental), 33
+2020, May, Darien, 6
+2020, May, The Home Depot, 4
+2020, May, Goodwives Shopping Center, 3
+2020, May, Weed Beach Tennis, 2
+2020, May, Stop & Shop, 2
+2020, May, ShopRite of Norwalk, 1
+2020, May, 240 Seaside Ave, 1
+2020, May, Shake Shack, 1
+2020, May, Noroton Heights, 1
+2020, May, Walmart, 1
+2020, Jun, 43 Blueberry Ln, 53
+2020, Jun, 9 Shipway Rd(Rental), 38
+2020, Jun, Darien, 5
+2020, Jun, Roton Point, 5
+2020, Jun, The Home Depot, 3
+2020, Jun, Waveny Park, 3
+2020, Jun, Stop & Shop, 2
+2020, Jun, Goodwives Shopping Center, 2
+2020, Jun, Chipotle Mexican Grill, 2
+2020, Jun, Jennifer's Kitchen @ White Bridge, 2
+2020, Jun, SPRINGDALE SHOPPING CENTER, 1
+2020, Jun, Scoops & Smiles Ice Cream Shop, 1
+2020, Jun, Danny's Cycles Darien, 1
+2020, Jun, Johnny's & Company, 1
+2020, Jun, Gofer Ice Cream, 1
+2020, Jun, Camp Avenue Car Wash, 1
+2020, Jun, ShopRite of Commerce St.-Stamford, CT, 1
+2020, Jun, Glenbrook Shopping Center, 1
+2020, Jun, Walgreens, 1
+2020, Jun, 2075 Boston Post Rd, 1
+2020, Jun, Post Road Plaza, 1
+2020, Jun, NORWALK MEDICAL CENTER, 1
+2020, Jun, Heights Pizza Company, 1
+2020, Jun, Stamford Health - Tully Health Center, 1
+2020, Jun, CVS, 1
+2020, Jul, 43 Blueberry Ln, 83
+2020, Jul, 9 Shipway Rd(Rental), 46
+2020, Jul, Royle Elementary School(Camp), 9
+2020, Jul, Waveny Park, 5
+2020, Jul, Vibe Fitness, 5
+2020, Jul, Stop & Shop, 5
+2020, Jul, Roton Point, 4
+2020, Jul, Darien, 3
+2020, Jul, Darien High School, 3
+2020, Jul, Dr. Gallois Orthodontics, 3
+2020, Jul, Connecticut Sportsplex, 3
+2020, Jul, 138 Ridgefield Rd, 3
+2020, Jul, Enterprise Rent-A-Car, 2
+2020, Jul, The Home Depot, 2
+2020, Jul, Wooster School, 2
+2020, Jul, Toyota of Stamford, 2
+2020, Jul, Wetmore's Chrysler Jeep Dodge RAM, 2
+2020, Jul, NORWALK MEDICAL CENTER, 1
+2020, Jul, Hindley Elementary School, 1
+2020, Jul, Cafe Silvium, 1
+2020, Jul, United States Postal Service, 1
+2020, Jul, Fresh Green Light Driving School, 1
+2020, Jul, Danny's Cycles Darien, 1
+2020, Jul, Briggs Tire, 1
+2020, Jul, Chase Bank, 1
+2020, Jul, 157 Parmelee Hill Rd, 1
+2020, Jul, Shipway Road, 1
+2020, Jul, McDonald's, 1
+2020, Jul, CALVERT CITGO, 1
+2020, Jul, Calvert Regional Park, 1
+2020, Jul, Playa Bowls, 1
+2020, Jul, Ring's End, 1
+2020, Jul, CVS, 1
+2020, Jul, ShopRite of East Haven, 1
+2020, Jul, JCakes, 1
+2020, Jul, Anthony John's Pizzeria, 1
+2020, Jul, Danbury Fair, 1
+2020, Jul, 9 Colony Rd, 1
+2020, Jul, 27 Ox Ridge Ln, 1
+2020, Jul, H & L Chevrolet, 1
+2020, Jul, Gofer Ice Cream, 1
+2020, Jul, Chick-fil-A, 1
+2020, Jul, Goodwives Shopping Center, 1
+2020, Aug, 43 Blueberry Ln, 80
+2020, Aug, 9 Shipway Rd(Rental), 18
+2020, Aug, Flashtalking(Work), 12
+2020, Aug, Goodwives Shopping Center, 6
+2020, Aug, Royle Elementary School(Football Practice), 5
+2020, Aug, Residence Inn by Marriott Philadelphia Glen Mills/Concordville, 5
+2020, Aug, CVS, 3
+2020, Aug, Bayley Beach, 3
+2020, Aug, Stamford Town Center, 3
+2020, Aug, Darien, 3
+2020, Aug, Shell, 3
+2020, Aug, Darien High School, 3
+2020, Aug, MSI, 3
+2020, Aug, Stop & Shop, 2
+2020, Aug, Glenbrook Shopping Center, 2
+2020, Aug, 2 Stephanie Ln, 2
+2020, Aug, The Home Depot, 2
+2020, Aug, ONS Stamford, 2
+2020, Aug, 99 Allen St, 2
+2020, Aug, ShopRite of Norwalk, 1
+2020, Aug, Laundry Room Greenwich CT, 1
+2020, Aug, P.C. Richard & Son, 1
+2020, Aug, 2 Sylvan Rd, 1
+2020, Aug, BlueStreak Sports Training, 1
+2020, Aug, Michele Levy, OD, 1
+2020, Aug, Lowe's Home Improvement, 1
+2020, Aug, ZARA, 1
+2020, Aug, NORWALK MEDICAL CENTER, 1
+2020, Aug, 291 Carter St, 1
+2020, Aug, Gulf, 1
+2020, Aug, 9 Hunt Rd, 1
+2020, Aug, A Ryuji Funakoshi, 1
+2020, Aug, Darinor Plaza, 1
+2020, Aug, Splash Car Wash, 1
+2020, Aug, Post Road Plaza, 1
+2020, Aug, Concordville Town Centre, 1
+2020, Aug, Glen Eagle Square, 1
+2020, Aug, Larkin's Corner, 1
+2020, Sep, 43 Blueberry Ln, 95
+2020, Sep, Royle Elementary School(Football Practice), 12
+2020, Sep, 9 Shipway Rd(Rental), 9
+2020, Sep, Goodwives Shopping Center, 8
+2020, Sep, Darien High School, 6
+2020, Sep, CVS, 3
+2020, Sep, Children's Medical Group of Greenwich, 3
+2020, Sep, Holiday Inn Express Aberdeen-Chesapeake House, 3
+2020, Sep, DICK'S Sporting Goods, 2
+2020, Sep, Glenbrook Shopping Center, 2
+2020, Sep, Ox Ridge Elementary School, 2
+2020, Sep, 99 Allen St, 2
+2020, Sep, St. Thomas More Church, 2
+2020, Sep, Green & Tonic, 2
+2020, Sep, Middlesex Middle School, 2
+2020, Sep, The Home Depot, 2
+2020, Sep, Riko's Pizza, 2
+2020, Sep, Carsins Run Park, 2
+2020, Sep, ONS Stamford, 1
+2020, Sep, 4 Christie Hill Rd, 1
+2020, Sep, Darien, 1
+2020, Sep, ShopRite of Paramus, 1
+2020, Sep, Trans Oil Ent Inc, 1
+2020, Sep, RT. 15 New Canaan NB Service Plaza, 1
+2020, Sep, 9 Shipway Rd, 1
+2020, Sep, Stop & Shop, 1
+2020, Sep, uBreakiFix Darien, 1
+2020, Sep, bp, 1
+2020, Sep, Wetmore's Chrysler Jeep Dodge RAM, 1
+2020, Sep, Veloz Barbershop, 1
+2020, Sep, Splash Car Wash, 1
+2020, Sep, 350 Hollow Tree Ridge Rd, 1
+2020, Sep, LAX.com, 1
+2020, Sep, Advance Auto Parts, 1
+2020, Sep, Yale New Haven Children's Hospital Pediatric Specialty Center - Norwalk, 1
+2020, Sep, Stamford Town Center, 1
+2020, Sep, Match, 1
+2020, Sep, Bed Bath & Beyond, 1
+2020, Sep, Waveny Park, 1
+2020, Sep, Scotts Ridge Middle School, 1
+2020, Sep, Rhett J Drugge Md Pc, 1
+2020, Sep, ShopRite of Shippan Ave- Stamford, CT, 1
+2020, Sep, 213 CT-106, 1
+2020, Sep, Darien EMS - Post 53 Inc., 1
+2020, Sep, Molly Pitcher Service Area, 1
+2020, Sep, 7-Eleven, 1
+2020, Sep, Riverside Pub & Grille, 1
+2020, Sep, Royal Farms, 1
+2020, Sep, Ox Ridge Hunt Club, 1
+2020, Sep, SPRINGDALE SHOPPING CENTER, 1
+2020, Sep, Judicial District Court, 1
+2019, Oct, 43 Blueberry Ln, 108
+2019, Oct, Darien High School, 11
+2019, Oct, 9 Shipway Rd(Rental), 9
+2019, Oct, Goodwives Shopping Center, 6
+2019, Oct, Royle Elementary School(Football Practice), 5
+2019, Oct, Ox Ridge Elementary School, 5
+2019, Oct, Darien EMS - Post 53 Inc., 4
+2019, Oct, Darien, 4
+2019, Oct, CVS, 3
+2019, Oct, 520 Hoyt St, 3
+2019, Oct, Waveny Park, 2
+2019, Oct, West Beach, 2
+2019, Oct, FOOD BAG, 2
+2019, Oct, Walmart, 2
+2019, Oct, Darinor Plaza, 2
+2019, Oct, Quest Diagnostics Darien, 1
+2019, Oct, Ox Ridge Hunt Club, 1
+2019, Oct, 11 Glenvale Ave, 1
+2019, Oct, Sacred Heart Greenwich, 1
+2019, Oct, Middlesex Middle School, 1
+2019, Oct, Chick-fil-A, 1
+2019, Oct, Stony Brook, 1
+2019, Oct, Whole Foods Market, 1
+2019, Oct, uBreakiFix Darien, 1
+2019, Oct, Sails American Grill, 1
+2019, Oct, Stamford Twin Rinks, 1
+2019, Oct, Methodist Family Center Preschool, 1
+2019, Oct, Rhett J Drugge Md Pc, 1
+2019, Oct, BevMax, 1
+2019, Oct, Hindley Elementary School, 1
+2019, Oct, The Home Depot, 1
+2019, Oct, St. Thomas More Church, 1
+2019, Oct, Shell, 1
+2019, Oct, New Canaan High School, 1
+2019, Oct, ShopRite of Shippan Ave- Stamford, CT, 1
+2019, Oct, Glenbrook Shopping Center, 1
+2019, Oct, 213 CT-106, 1
+2019, Oct, 95 Hoyt St, 1
+2019, Oct, ShopRite of Norwalk, 1
+2019, Oct, Bull's Head Shopping Center, 1
+2019, Oct, High Ridge Shopping Center, 1
+2019, Oct, Malibu, 1
+2020, Dec, 43 Blueberry Ln, 65
+2020, Dec, 9 Shipway Rd(Rental), 8
+2020, Dec, Goodwives Shopping Center, 6
+2020, Dec, Costco Wholesale, 3
+2020, Dec, The Home Depot, 3
+2020, Dec, CVS, 3
+2020, Dec, 520 Hoyt St, 3
+2020, Dec, Santé Naturopathic & Acupuncture, 2
+2020, Dec, Stop & Shop, 2
+2020, Dec, ShopRite of Norwalk, 2
+2020, Dec, FOOD BAG, 2
+2020, Dec, Shell, 2
+2020, Dec, Darien Sport Shop, 1
+2020, Dec, bp, 1
+2020, Dec, Noroton Heights Fire Department, 1
+2020, Dec, Darien Butcher Shop, 1
+2020, Dec, Rhett J Drugge Md Pc, 1
+2020, Dec, Darien High School, 1
+2020, Dec, Quest Diagnostics Norwalk Cross Street - Employer Drug Testing Not Offered, 1
+2020, Dec, Darien EMS - Post 53 Inc., 1
+2020, Dec, SPRINGDALE SHOPPING CENTER, 1
+2020, Dec, REI, 1
+2020, Dec, Crescent Cleaners & Launderers, 1
+2020, Dec, Quest Diagnostics Darien, 1
+2020, Dec, Crescendo Music, 1
+2020, Dec, Walmart, 1
+2020, Dec, Main Avenue Shopping Plaza, 1
+2020, Dec, Bob's Discount Furniture and Mattress Store, 1
+2020, Dec, Michaels, 1
+2020, Dec, Bull's Head Shopping Center, 1
+2020, Dec, High Ridge Shopping Center, 1
+2020, Dec, LAX.com, 1
+2020, Dec, 97 Cummings Ave, 1
+2020, Dec, Verizon Authorized Retailer - Wireless Zone, 1
+2020, Dec, LaGuardia Airport, 1
+2020, Dec, Al's Warehouse Wine Beer, 1
+2020, Jan, 9 Shipway Rd(Rental), 78
+2020, Jan, Dermatologist(Contract Work), 29
+2020, Jan, University of Connecticut-Stamford Campus, 12
+2020, Jan, Darien, 8
+2020, Jan, 43 Blueberry Ln, 4
+2020, Jan, Darien High School, 4
+2020, Jan, Revive Center For Wellness, 3
+2020, Jan, Sergios, 3
+2020, Jan, Shake Shack, 3
+2020, Jan, Hyatt Regency Greenwich, 2
+2020, Jan, The Campus, 2
+2020, Jan, Darien Library, 2
+2020, Jan, Riverview East, 2
+2020, Jan, Stamford Town Center, 2
+2020, Jan, PetSmart, 1
+2020, Jan, Post Corner Pizza, 1
+2020, Jan, Garcia's Flower Shop, 1
+2020, Jan, 66 Summer, 1
+2020, Jan, The Home Depot, 1
+2020, Jan, Hindley Elementary School, 1
+2020, Jan, Ox Ridge Elementary School, 1
+2020, Jan, DOCS Urgent Care - Norwalk, 1
+2020, Jan, Standard, 1
+2020, Jan, FOOD BAG, 1
+2020, Jan, Glenbrook Shopping Center, 1
+2020, Jan, Walgreens, 1
+2020, Jan, Ring's End, 1
+2020, Jan, United States Postal Service, 1
+2020, Jan, CVS, 1
+2020, Jan, Chéz Ernie's Cafe, 1
+2020, Jan, Atria Darien, 1
+2020, Jan, Noroton Heights, 1
+2020, Jan, Darien Sport Shop, 1
+2020, Jan, Weed Beach Tennis, 1
+2020, Jan, Chick-fil-A, 1
+2020, Jan, Colony Grill, 1
+2020, Jan, Caffè Nero, 1
+2020, Jan, Washington Prime, 1
+2020, Jan, Post Road Plaza, 1
+2020, Jan, Vinny's Backyard Restaurant and Bar, 1
+2020, Jan, ShopRite of Shippan Ave- Stamford, CT, 1
+2020, Jan, Taco Bell, 1
+2020, Jan, Marshalls, 1
+2020, Jan, Michaels, 1
+2020, Jan, Stop & Shop, 1
+2020, Jan, Fairway Market Stamford, 1
+2020, Jan, Mike's Ristorante, 1
